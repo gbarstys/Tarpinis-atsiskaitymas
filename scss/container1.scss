@@ -1,0 +1,113 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 639px;
+    background-color: #cccccc;
+    background-image: url(../assets/photo-1480714378408-67cf0d13bc1b@2x.png); 
+}
+#backround1 {
+    background-image: url(../assets/photo-1480714378408-67cf0d13bc1b.png);
+    background-color: #cccccc;
+    height: 639px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.box1 .img-2 {
+    margin-top: 65px;
+    width: 247px;
+    height: 108px;
+}
+.box1 h1 {
+    font-size: 36px;
+    margin: 21px;
+    margin-left: 0;
+}
+.box1 .img-3 {
+    width: 84px;
+    height: 22px;
+}
+
+.box1 {
+    height: 424.88px;
+    width: 599px;
+    color: white;
+}
+.box1 p {
+    font-size: 16px;
+    margin: 21px;
+    margin-left: 0px;
+}
+.box1 button {
+    background: none;
+    color: white;
+    border: 2px solid #FFFFFF;
+    width: 135px;
+    height: 42px;
+}
+
+.box2 {
+    width: 360px;
+    height: 424.88px;
+    background: #FFFFFF;
+    margin: 0px;
+}
+.box2 .freetrial {
+    margin-top: 0;
+    height: 57px;
+    background: #F5F5F5;
+    font-size: 20px;
+}
+.box2 .freetrial h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box2 .freetrial span {
+    color: #E27866;
+}
+
+.box2 p {
+    margin-left: 51px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1C1C1C;
+    
+}
+.box2 .inputai {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box2 input {
+    
+    width: 60%;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+}
+.box2 .radio {
+    display: block;
+    position: relative;
+    row-gap: 10px;
+    margin-left: 51px;
+}
+
+.box2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 57px;
+    background:#41D395;
+    
+
+}
