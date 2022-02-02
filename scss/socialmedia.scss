@@ -1,0 +1,38 @@
+.social-media {
+    display: flex;
+    flex-direction: row;
+    height: 105px;
+    background-color: #FFFFFF;
+    
+}
+
+.social-media .tekstas {
+    height: 62px;
+    width: 394px;
+    margin: 19px 0px 19px 152px;
+}
+
+.social-media .tekstas h3 {
+    font-size: 20px;
+    color: #333333;
+}
+.social-media .tekstas p {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-media .iconos {
+    margin: 38px 158px 37px 135px;
+}
+.social-media .iconos a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.social-media .iconos i {
+    color: #E27866;
+    font-size: 30px;
+    
+}
+

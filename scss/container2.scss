@@ -1,0 +1,86 @@
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    height: 595px;
+    background: url(../../assets/christoffer-engstrom-503481-unsplash.png);
+}
+
+.container2 .tabu-tabai {
+    margin-top: 127px;
+    margin-left: 151px;
+    margin-right: 54px;
+}
+
+.tabu-tabai .tab1  {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 21px;
+    background: #A37169;
+    color: #c7bbb9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabu-tabai .tabhover {
+    position: relative;
+    color: white;
+    background: #E27866;
+}
+
+.overlaytext {
+  transform: rotate(-45deg);
+}
+
+.tabu-tekstas {
+    margin: 150px 150px 54px 0px;
+    width: 517px;
+    height: 295px;
+
+}
+.tabu-tekstas h3{
+    margin-bottom: 33px;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+.tabu-tekstas p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.tabu-nuotraukos {
+    position: relative;
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+    width: 362.24px;
+    height: 366.03px;
+    margin: 114px 50px 114.97px 0px;
+}
+.tabu-nuotraukos #tabft {
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.tabu-nuotraukos .ft1 {
+    width: 168px;
+    height: 168px;
+}
+.tabu-nuotraukos .ft2 {
+    width: 167.71px;
+    height: 167.71px;
+    
+}
+.tabu-nuotraukos .ft3 {
+    width: 362.24px;
+    height: 177.44px;
+}
+
+
+
+
+
+
+

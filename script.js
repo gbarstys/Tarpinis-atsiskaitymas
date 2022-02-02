@@ -9,3 +9,11 @@ function myFunction(){
         x.className = "topnav";
     }
 }
+
+// container 2 pirmi tabaiz
+    function changestyle(x) {
+        x.classList.add("tabhover");
+    }
+    function changeback(x) {
+        x.classList.remove("tabhover");
+    }

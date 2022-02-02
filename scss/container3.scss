@@ -1,0 +1,76 @@
+.container3 {
+    display: flex;
+    flex-direction: row;
+    height: 596px;
+    background: #1C1C1C;
+}
+
+.container3 .con3logo img {
+    width: 388.58px;
+    height: 169.47px;
+    margin: 213px 0px 213.53px 210.04px;
+}
+
+.container3 .con3text {
+    margin: 90px 169px 89px 167.91px;
+}
+
+.container3 .con3text h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+
+.container3 .con3text hr {
+    width: 200px;
+    height: 2px;
+    background: #E27866;
+    border: none;
+    margin-bottom: 27px;
+}
+.container3 .con3text p {
+    font-size: 14px;
+    color: white;
+}
+
+.container3 .con3text h3 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 6px;
+    
+}
+
+.container3 .title1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 43px;
+
+}
+
+.container3 .title2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+}
+.container3 .titleoftitle1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+.container3 .titleoftitle2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+.container3 .icon1 {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: #E27866;
+    border-radius: 100%;
+}
+.container3 .icon1 i {
+    font-size: 24px;
+    margin: 13px 11px 16px 12px;
+}
