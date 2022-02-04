@@ -59,11 +59,27 @@
     height: 366.03px;
     margin: 114px 50px 114.97px 0px;
 }
-.tabu-nuotraukos #tabft {
-    opacity: 1;
-    transition: 0.5s ease;
-    backface-visibility: hidden;
+.tabu-nuotraukos .tabfthover {
+    z-index: 1000;
+    position: relative;
+    color: white;
+    background: #E27866;
+    opacity: 20%;
 }
+.tabu-nuotraukos .photo-text {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    z-index: 10001;
+    color: white;
+    font-size: 1.5em;
+    display: none;
+
+}
+.tabu-nuotraukos .photo-texthover {
+display: block !important;
+}
+
 .tabu-nuotraukos .ft1 {
     width: 168px;
     height: 168px;

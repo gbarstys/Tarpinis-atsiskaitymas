@@ -1,0 +1,109 @@
+
+.swiperbendras {
+    height: 591px;
+}
+.swiperbendras .swipervirsus {
+    width: 696px;
+    height: 76px;
+    border: 2px solid black;
+    margin: 67px 351.07px 0px 352.93px;
+    text-align: center;
+}
+.swiperbendras .swipervirsus h1 {
+    font-size: 36px
+}
+.swiperbendras .swipervirsus hr {
+    width: 64px;
+    height: 2px;
+    background: #6696E2;
+    border: 1px solid #6696E2;
+    margin: 31.24px 316px 0px 316px;  
+}
+
+
+.customer1 {
+    width: 273px;
+    height: 236px;
+    border: 1px solid black;
+}
+.customer2 {
+    width: 273px;
+    height: 214px;
+    border: 1px solid black;
+}
+.customer3 {
+    width: 273px;
+    height: 236px;
+    border: 1px solid black;
+}
+
+.customer1-virsus {
+    height: 147px;
+    background: #6696E2;
+    border-radius: 8px;
+}
+.customer1-apacia {
+    height: 89px; 
+    display: flex;
+    gap: 20px;
+}
+.customer2-virsus {
+    height: 125px;
+    background: #6696E2;
+    border-radius: 8px;
+}
+.customer2-apacia {
+    height: 89px;
+    display: flex;
+    gap: 20px;
+
+}
+.customer3-virsus {
+    height: 147px;
+    background: #6696E2;
+    border-radius: 8px;
+}
+.customer3-apacia {
+    height: 89px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.customer1-virsus p {
+    color: white;
+    padding: 20px 21px 20px 22px;
+    
+}
+.customer2-virsus p {
+    color: white;
+    padding: 20px 21px 20px 22px;
+}
+.customer3-virsus p {
+    color: white;
+    padding: 20px 21px 20px 22px;
+}
+
+.swiperbendras .fotke{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.swiperbendras .vardas h3{
+    font-size: 20px;
+    color: #333333;
+}
+.swiperbendras .vardas p{
+    color: #86878B;
+    font-size: 14px;
+
+}
+.swiper-slide {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.swiper {
+    height: 55%;
+}

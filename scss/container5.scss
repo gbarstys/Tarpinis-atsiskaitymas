@@ -1,0 +1,115 @@
+.container5 {
+
+    height: 883px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    background: #6696E2;
+}
+
+.container5 > div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container5 .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 97px;
+    margin-bottom: 43.24px;
+}
+
+.container5 .item1 h2 {
+    font-size: 36px;
+    color: white;
+}
+.container5 .item1 hr {
+    width: 64px;
+    height: 2px;
+    color: #41D395;
+    background: #41D395;
+    border: 1px solid #41D395;
+    margin: 21.24px 668px 26.76px 668px;
+    
+    
+}
+.container5 .item1 p {
+    font-size: 14px;
+    color: white;   
+}
+
+// container 5 apatiniai containeriai 
+.container5 .item3 {
+    margin: 58.24px 0px 107.76px 146px;
+    border-radius: 5px;
+} 
+
+.container5 .item4 {
+    margin-bottom: 107.76px;
+    border-radius: 5px;
+}
+.container5 .item5 {
+    margin: 58.24px 145px 107.76px 0px;
+    border-radius: 5px;
+}
+
+.container5 h3 {
+    padding-top: 14px;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+.container5 span {
+    font-size: 25px;
+    color: white;
+}
+.container5 .virsus1 {
+    font-size: 94px;
+    color: white;
+}
+.container5 .virsus2 {
+    font-size: 14px;
+    color: white;
+    padding-bottom: 19px;
+
+}
+.container5 .item3-virsus {
+    border-bottom: 6px solid #41D395;
+    background: #333333;
+    height: 210px;
+}
+.container5 .item4-virsus {
+    background: #333333;
+    height: 210px;
+}
+.container5 .item5-virsus {
+    border-bottom: 6px solid #41D395;
+    background: #333333;
+    height: 210px;
+}
+.container5 .item4-vidurys h3 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.container5 .item4-vidurys {
+    height: 40px;
+    background: #41D395; 
+    padding-bottom: 25px;
+}
+.container5 .item5-apacia , .item4-apacia , .item3-apacia {
+    background: white;
+}
+.container5 li {
+    color: #86878B;
+    font-size: 14px;
+    line-height: 200%;
+    padding-top: 10px;
+    list-style-type: none;
+}
+.container5 ul {
+    height: 235px;
+}
+

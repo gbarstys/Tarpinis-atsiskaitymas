@@ -1,7 +1,6 @@
 .container4 .con4box1 {
     display: flex;
     flex-direction: column;
-    border: 3px solid black;
     width: 444px;
     height: 110px;
     margin: 98.76px 477px 0px 479px;
@@ -14,8 +13,9 @@
 }
 .container4 .con4box1 hr {
     width: 64px;
-    height: 2px;
+    height: 5px;
     background: #E27866;
+    border: 2px solid #E27866;
     margin: 0 auto;
 }
 .container4 .con4box1 p{
@@ -38,21 +38,18 @@
     margin-top: 65.24px;
     width: 286px;
     height: 194px;
-    border: 2px solid black;
 
 }
 .container4 .conboxbox2 {
      margin-top: 65.24px;
     width: 242px;
     height: 194px;
-    border: 2px solid black;
     
 }
 .container4 .conboxbox3 {
      margin-top: 65.24px;
     width: 238px;
     height: 174px;
-    border: 2px solid black; 
 }
 // iconu dizainas
 .container4 .con4icon {
@@ -68,4 +65,12 @@
 }
 
 //container4 conboxbox dizainas
-
+.conboxbox1 h3 , .conboxbox2 h3 , .conboxbox3 h3 {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 27px;
+}
+.conboxbox1 p , .conboxbox2 p , .conboxbox3 p {
+    font-size: 14;
+    color: #86878B;
+}
