@@ -14,9 +14,13 @@
 //             var photo = document.getElementsByClassName("photo-text");
 //             photo.classList.remove("photo-texthover");
 
+
+
+
 //         }
 //     });
 // };
+
 
 function changephotostyle(x) {
     x.classList.add("tabfthover");
