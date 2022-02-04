@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="app/css/style.css">
     <title>Tarpinis atsiskaitymas</title>
@@ -15,11 +16,11 @@
   <header>
     <div class="img-1"> <img src="assets/cheshire-county-hygiene-services.png" alt=""></div>
     <div class="topnav" id="myTopnav">
-      <a href="#features">Features</a>
-      <a href="#about">About</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
+      <a href="#container4">Features</a>
+      <a href="#container2">About</a>
+      <a href="#container5">Pricing</a>
+      <a href="#swiper">Reviews</a>
+      <a href="#container6">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
         </a>
@@ -40,20 +41,23 @@
       <div class="freetrial"><h1>Try Your <span>FREE</span> Trial Today</h1></div>
       <p>Your details</p>
       <div class="inputai">
-      <input type="text" placeholder="First name">
-      <input type="text"placeholder="Last name">
-      <input type="text"placeholder="Phone number">
+      <input id="tusciaslaukas" type="text" placeholder="First name"required>
+      <input id="tusciaslaukas" type="text"placeholder="Last name"required>
+      <input id="tusciaslaukas" type="text"placeholder="Phone number"required>
       </div>
       <p>Type of subscription</p>
       <div class="radio">
-      <div class="inputaisub">
-        <input type="radio" id="contactChoice1" name="contact" value="email">
-        <label for="contactChoice1">Monthly</label>
-      
-        <input type="radio" id="contactChoice2" name="contact" value="phone">
-        <label for="contactChoice2">Yearly</label>
+        <div class="inputaisub">
+          <div class="input-group">
+            <input type="radio" id="contactChoice1" name="contact" value="email">
+            <label for="contactChoice1">Monthly</label>
+          </div>
+          <div class="input-group">
+            <input type="radio" id="contactChoice2" name="contact" value="phone">
+            <label for="contactChoice2">Yearly</label>
+          </div>
         </div>
-        </div>
+      </div>
         <button>GET STARTED</button>
     </div>
     </div>
@@ -70,7 +74,7 @@
         <a href="#" id="iconujs"><i class="fas fa-wifi"></i></a>
       </div>
     </div>
-    <div class="container2">
+    <div class="container2" id="container2">
       <div class="tabu-tabai">
       <div class="tab1" onmouseover="changestyle(this);" onmouseout="changeback(this);">
         <div class="overlaytext">
@@ -137,7 +141,7 @@
         </div>
       </div>
     </div>
-    <div class="container4">
+    <div class="container4" id="container4">
       <div class="con4box1">
         <h2>WHY THIS IS AWESOME</h2>
         <hr>
@@ -167,7 +171,7 @@
         </div>
       </div>
     </div>
-    <div class="container5">
+    <div class="container5" id="container5">
       <div class="item1">
         <h2>PRICING OPTIONS</h2>
         <hr>
@@ -234,7 +238,7 @@
         <hr>
       </div>
     <!-- Slider main container -->
-    <div class="swiper">
+    <div class="swiper" id="swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
@@ -368,6 +372,42 @@
     </div>
 
     </div>
+    <div class="container6" id="container6">
+      <div class="contactus">
+        <h3>CONTACT US</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="forma">
+        <div class="text">
+        <input id="tusciaslaukas" type="text" placeholder="First name"required>
+        <input id="tusciaslaukas" type="text" placeholder="Last name"required>
+        <input id="tusciaslaukas" type="text" placeholder="Phone number"required>
+        </div>
+        <div class="radio">
+          <div class="input-group">
+            <input type="radio" id="contactChoice1" name="contact" value="email">
+            <label for="contactChoice1">PERSONAL</label>
+          </div>
+          <div class="input-group">
+            <input type="radio" id="contactChoice2" name="contact" value="phone">
+            <label for="contactChoice2">COMPANY</label>
+          </div>
+        </div>
+        <button>SEND</button>
+      </div>
+    </div>
   </main>
+  <footer>
+    <div class="footer-icons">
+      <a href="#" id="iconujs"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" id="iconujs"><i class="fab fa-instagram"></i></a>
+      <a href="#" id="iconujs"><i class="fab fa-twitter"></i></a>
+      <a href="#" id="iconujs"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#" id="iconujs"><i class="fas fa-wifi"></i></a>
+    </div>
+    <div class="copyrights">
+      <p>© 2019 Cheshire County</p>
+    </div>
+  </footer>
 </body>
 </html>

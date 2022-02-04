@@ -1,0 +1,16 @@
+@media (max-width: 760px)  {
+
+    body {
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+    }
+  
+    header {
+        flex-direction: column;
+    }
+    .container1 {
+        flex-direction: column;
+        
+    }
+}

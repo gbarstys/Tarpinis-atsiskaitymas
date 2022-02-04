@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 124px;
+    background: #1C1C1C;
+}
+
+footer .footer-icons {
+    display: flex;
+    gap: 110px;
+    font-size: 20px;
+}
+
+footer .footer-icons i {
+    color: #E27866;
+}
+
+footer .copyrights p {
+    font-size: 18px;
+    color: white;
+    opacity: 50%;
+}
